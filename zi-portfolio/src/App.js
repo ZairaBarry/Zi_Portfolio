@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Contact from './components/pages/Contact';
+import About from './components/pages/About'
 
 import './App.css';
 
@@ -9,8 +11,10 @@ function App() {
   return (
     <div>
       < Header />
-      <Footer />
-      <Navbar />
+      < Navbar />
+      < About />
+      < Contact />
+      < Footer />
   </div>
   
   );
