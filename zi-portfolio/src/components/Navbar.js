@@ -3,7 +3,7 @@ import React from 'react';
 
 function Navbar({ currentPage, handlePageChange }) {
     return (
-      <ul className="nav justify-content-end">
+      <ul className="nav justify-content-center">
         <li className="nav-item">
           <a
             href="#About"
