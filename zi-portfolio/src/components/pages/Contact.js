@@ -111,7 +111,8 @@ export default function Contact() {
               <a class="btn btn-primary" type="submit">Send</a>
             </div>
             {errMsg && (
-            <div class="status">{errMsg} style{}</div>
+            <div style = {{color:"red"}}
+             class="status">{errMsg} </div>
             )}
           </div>
 
@@ -120,15 +121,15 @@ export default function Contact() {
           <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
               <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>San Francisco, CA 94126, USA</p>
+                <p>Saint John, NB, Canada</p>
               </li>
 
               <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 01 234 567 89</p>
+                <p>+ 00 000 000</p>
               </li>
 
               <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>contact@mdbootstrap.com</p>
+                <p>zaira.barakaeva22@gmail.com</p>
               </li>
             </ul>
           </div>
