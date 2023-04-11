@@ -73,8 +73,8 @@ export default function Contact() {
 
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="text" id="name" name="name" class="form-control" onBlur={handleChange} defaultValue={name}></input>
-                    <label for="name" class="">Your name</label>
+                    <input type="text" id="name" name="name"  class="form-control" onBlur={handleChange} defaultValue={name}></input>
+                    <label for="name" style={{ color: "white"}}>Your name</label>
                   </div>
                 </div>
 
@@ -83,7 +83,7 @@ export default function Contact() {
                 <div class="col-md-6">
                   <div class="md-form mb-0">
                     <input type="text" id="email" name="email" class="form-control" onBlur={handleChange} defaultValue={email}></input>
-                    <label for="email" class="">Your email</label>
+                    <label for="email" style={{ color: "white"}}>Your email</label>
                   </div>
                 </div>
 
@@ -98,7 +98,7 @@ export default function Contact() {
 
                   <div class="md-form">
                     <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" onBlur={handleChange} defaultValue={message}></textarea>
-                    <label for="message">Your message</label>
+                    <label for="message" style={{ color: "white"}}>Your message</label>
                   </div>
 
                 </div>
@@ -118,7 +118,7 @@ export default function Contact() {
 
 
 
-          <div class="col-md-3 text-center">
+          <div class="col-md-3 text-center" style={{ color: "white"}}>
             <ul class="list-unstyled mb-0">
               <li><i class="fas fa-map-marker-alt fa-2x"></i>
                 <p>Saint John, NB, Canada</p>

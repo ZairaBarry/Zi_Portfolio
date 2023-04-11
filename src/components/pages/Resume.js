@@ -9,7 +9,7 @@ export default function Resume() {
             <a href={myCV} download="Zaira.Barakaeva CV"> You can download my  CV here</a>
 
 
-            <h2> Front End </h2>
+            <h2 style={{ color: "white"}} > Front End </h2>
             <ul class="list-group">
                 <li class="list-group-item disabled">HTML5</li>
                 <li class="list-group-item">CSS3</li>
@@ -20,7 +20,7 @@ export default function Resume() {
                 <li class="list-group-item">Handlebars</li>
             </ul>
 
-            <h2> Back End </h2>
+            <h2 style={{ color: "white"}}> Back End </h2>
             <ul class="list-group">
                 <li class="list-group-item disabled">Node.js</li>
                 <li class="list-group-item">Express</li>

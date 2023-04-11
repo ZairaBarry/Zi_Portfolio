@@ -1,8 +1,11 @@
 import React from 'react';
+import './Navbar.css'
 
 
 function Navbar({ currentPage, handlePageChange }) {
     return (
+      <header class ="header">
+        <a href= "#" class="logo"> My Portfolio </a>
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <a
@@ -45,7 +48,9 @@ function Navbar({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-    );
+    
+    </header>
+    )
   }
   
   export default Navbar;

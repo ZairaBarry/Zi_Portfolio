@@ -8,26 +8,12 @@ import PortfolioContainer from "./components/PortfolioContainer";
 // import Portfolio from './components/pages/Portfolio';
 
 
-const App = () => <PortfolioContainer />;
+const App = () => 
+<PortfolioContainer />;
+
 
 
 export default App;
 
-
-
-// function App() {
-//   return (
-//     <div>
-//       < Header />
-//        < Navbar />
-//       < About />
-//       <Portfolio/>
-//       < Contact />
-//       < Footer /> 
-      
-//   </div>
-  
-//   );
-// }
 
 
